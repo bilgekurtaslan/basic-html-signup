@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formlar</title>
+</head>
+<body><h3><center>Kayıt Olma Ekranı</center></h3>
+    <marquee> Kayıt olmak için son gün 24/10/2024</marquee>
+    <form>
+        <p> 
+            <center>
+                Adınız: <input name="first_name" placeholder="isminizi yazınız...">
+                Soy Adınız: <input name="last_name" placeholder="soyisminizi yazınız..."> <br>
+            </center>
+        </p>
+        <p>
+            <center>
+ Cinsiyetiniz:  <input type="radio" name="gender" value="Male"> Erkek
+                <input type="radio" name="gender" value="Female" checked> Kadın
+                <input type="radio" name="gender" value="Other"> Belirtmek İstemiyorum
+            </center>
+        </p>
+        <p>
+            <center>
+                Hobileriniz: <input type="checkbox" name="kitap" value="kitap"> Kitap Okumak
+                <input type="checkbox" name="resim" value="resim"> Resim Yapmak
+                <input type="checkbox" name="oyun" value="oyun"> Oyun Oynamak
+            </center>
+        </p>
+        <p>
+            <center>
+                Favori Renginiz: <input type="color" name="favcolor">
+            </center>
+        </p>
+        <p>
+            <center>
+                Yaşadığınız Şehir: 
+               <select name="şehir">
+                <option value="1">Aydın</option>
+                <option value="2">İstanbul</option>
+                <option value="3">Malatya</option>
+               </select>
+            </center>
+        </p>
+        <p>
+            <center>
+                Doğum Gününüz: <input type="date" name="bday">
+                Doğum Saatiniz: <input type="time" name="btime">
+            </center>
+        </p>
+        <p>
+            <center>
+                Kullanıcı Adınız: <input type="text" name="userid">
+                Parola: <input type="password" name="password">
+            </center>
+        </p>
+        <p>
+            <center>
+                Telefon Numaranız: <input type="tel" name="tel">
+                E-Mail: <input type="email" name="email">
+                Website: <input type="url" name="weburl">
+            </center>
+        </p>
+        <p><center>
+            Kendinizi Tanıtın: <br>
+            <textarea cols="30" rows="10" placeholder="Metin Giriniz.."></textarea>
+        </center>
+        </p>
+        <p><center>
+            <input type="submit" name="Gönder">
+            <input type="reset" name="Temizle">
+
+        </center></p>
+
+    </form>
+    
+</body>
+</html>
